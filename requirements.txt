@@ -3,3 +3,4 @@ six
 jupyter
 pandas
 pandas-profiling[notebook]
+pandas-gbq

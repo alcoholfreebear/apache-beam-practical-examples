@@ -14,5 +14,5 @@ publisher = pubsub_v1.PublisherClient()
 with open('../data/housing_short.csv', 'rb') as f:
     for row in f:
         publisher.publish(pubsub_topic, row)
-        time.sleep(2)
+        time.sleep(1)
         
